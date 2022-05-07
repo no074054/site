@@ -1,0 +1,177 @@
+body {
+font-family: RobotoSlab;
+src: url ('../fonts/RobotoSlab.ttf') format ('truetype');
+margin: 0 auto;
+}
+
+.header {
+min-height: 840px;
+padding-top: 10px;
+background-image: url('../img/pshono.png');
+border-radius: 5px;
+}
+
+.search_line {
+float: right;
+padding-top: 5px;
+margin-right: 5px;
+}
+
+.search_button {
+float: right;
+margin-right: 5px;
+}
+
+.word_search {
+float: right;
+margin-right: 5px;
+}
+
+ul.list li {
+display: inline;
+margin-right: 10px;
+float: right;
+}
+
+.description {
+padding-top: 300px;
+text-align: center;
+font-weight: bold;
+color: #684b04;
+}
+
+.button_read_more {
+background: green;
+color: white;
+padding: 20px;
+border-radius: 5px;
+margin: 0 auto;
+display: block;
+}
+
+.subheader {
+background: #f5f5f5;
+border-radius: 5px;
+}
+
+.png {
+padding-top: 15px;
+margin: 0 auto;
+display: block;
+}
+
+.content {
+background: #eeebeb;
+border-radius: 5px;
+}
+
+.content_caption1 {
+font-weight: bold;
+font-size: 60px;
+padding-left: 200px;
+padding-top: 100px;
+}
+
+.content_text1 {
+padding-left: 200px;
+font-size: 25px;
+}
+
+.image_2 {
+float: right;
+}
+
+.content_caption2 {
+font-weight: bold;
+font-size: 60px;
+padding-top: 100px;
+}
+
+.content_text2 {
+font-size: 25px;
+}
+
+.subcontent {
+background: #dddddd;
+border-radius: 5px;
+}
+
+.subcontent_caption1 {
+padding-top: 30px;
+text-align: center;
+font-size: 60px;
+color: #383838;
+}
+
+.stars {
+font-size: 25px;
+color: green;
+text-align: center;
+}
+
+.subcontent_caption {
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+color: green;
+}
+
+.subcontent_links {
+text-decoration: none;
+}
+
+.pomidor {
+padding-top: 5px;
+margin: 0 auto;
+display: block;
+}
+
+.podsol {
+margin: 0 auto;
+display: block;
+}
+
+.line {
+margin: 0 auto;
+display: block;
+}
+
+.subcontent_text {
+font-size: 20px;
+text-align: center;
+}
+
+.footer {
+background: #2a2b2a;
+border-radius: 5px;
+}
+
+ul.footer_list li {
+display: inline;
+padding-left: 5px;
+}
+
+.icons {
+padding-left: 10px;
+}
+
+.subfooter {
+background: #444544;
+border-radius: 5px;
+}
+
+.header2 {
+padding-top: 10px;
+background: #f6f6f5;
+border-radius: 5px;
+}
+
+.content2 {
+border-radius: 5px;
+background: #f7d0f6;
+padding-bottom: 40px;
+}
+
+.ramka {
+border: 10px solid #f7d0f6;
+}
