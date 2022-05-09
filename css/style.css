@@ -1,3 +1,7 @@
+.rama {
+border: 1px solid black;
+}
+
 body {
 font-family: RobotoSlab;
 src: url ('../fonts/RobotoSlab.ttf') format ('truetype');
@@ -31,6 +35,17 @@ display: block;
 opacity: 0.5;
 }
 
+.click_logo {
+}
+
+.click_logo:active {
+opacity: 0.3;
+}
+
+.shadow {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .search_line {
 float: right;
 padding-top: 5px;
@@ -40,6 +55,7 @@ margin-right: 5px;
 .search_button {
 float: right;
 margin-right: 5px;
+border-radius: 5px;
 }
 
 .word_search {
@@ -138,6 +154,7 @@ padding-top: 30px;
 text-align: center;
 font-size: 60px;
 color: #383838;
+font-weight: bold;
 }
 
 .stars {
@@ -160,6 +177,13 @@ text-decoration: none;
 .subcontent_links:hover {
 text-decoration: underline;
 opacity: 0.5;
+}
+
+.click_link {
+}
+
+.click_link:active {
+color: red;
 }
 
 .pomidor {
@@ -230,4 +254,42 @@ opacity: 0.5;
 
 .ramka {
 border: 10px solid #f7d0f6;
+}
+
+.content_3 {
+background-image: url('../img/background_3.png');
+background-color: #eeebeb;
+min-height: 1250px;
+border-radius: 5px;
+padding-left: 200px;
+padding-right: 200px;
+padding-bottom: 80px;
+padding-top: 10px;
+}
+
+.return3 {
+color: green;
+text-decoration: none;
+}
+
+.return3:hover {
+text-decoration: underline;
+opacity: 0.5;
+}
+
+.download_button_3 {
+float: right;
+border-radius: 30px;
+border: 2px green solid;
+padding: 10px;
+background: #eeebeb;
+}
+
+.download_button_3:hover {
+background: #a8f69d;
+}
+
+.download_button_3:active {
+padding: 9px;
+margin-bottom: 2px;
 }
