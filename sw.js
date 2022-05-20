@@ -5,6 +5,8 @@ self.addEventListener('install', function(event) {
             .then(function(cache) {
                 console.log("precaching");
                 cache.add('index.html');
+                cache.add('css/style.css');
+                cache.add('css/responsive.css');
                 cache.add('/');
             })
     );
@@ -17,5 +19,13 @@ self.addEventListener('activate', function(event) {
 
 self.addEventListener('fetch', function(event) {
     console.log('[Service Worker] Fetching something ...', event);
-    event.respondWith(fetch(event.request));
+    event.respondWith(
+        caches.match(event.request)
+            .then(function(response) {
+                if (response)
+                    return response;
+                else
+                    return fetch(event.request);
+            })
+    );
 });
