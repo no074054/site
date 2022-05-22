@@ -416,11 +416,15 @@ background-size: cover;
 height: 380px;
 }
 
-.content2_color {
-background: #f9f474;
+.content2 {
+background: #f7d0f6;
 padding-bottom: 40px;
 padding-left: 200px;
 padding-right: 200px;
+}
+
+.content2_color {
+background: #f9f474;
 }
 
 .content2_caption1 {
