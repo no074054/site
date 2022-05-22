@@ -411,7 +411,7 @@ padding-bottom: 20px;
 }
 
 .header2_bg {
-background-image: url('../img/banana.jpg');
+background-image: url('img/banana.jpg');
 background-size: cover;
 height: 380px;
 }
